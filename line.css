@@ -145,7 +145,10 @@ header {
   float: left;
   width: 100%;
 }
-
+.lesson-three {
+  float: left;
+  width: 33.3%;
+}
 .lesson-icon {
   position: relative;
 }
@@ -203,8 +206,13 @@ footer {
 
 /* タブレット向けレイアウト */
 @media all and (max-width: 1000px) {
-  .lesson {
+  .lesson{
     width: 50%;
+    margin-bottom: 50px;
+  }
+
+  .lesson-three{
+    width: 33%;
     margin-bottom: 50px;
   }
 
@@ -223,7 +231,7 @@ footer {
 
 /* スマホ向けレイアウト */
 @media all and (max-width: 670px) {
-  .lesson {
+  .lesson ,.lesson-three{
     width: 100%;
   }
 
